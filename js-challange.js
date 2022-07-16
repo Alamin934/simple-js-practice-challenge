@@ -51,4 +51,17 @@ function gradeSystem(grade){
     return grade;
 }
 
-console.log(gradeSystem(102));
+// console.log(gradeSystem(102));
+
+
+//Simple interest Calculator
+//Formula A = P(1 + rt)
+
+function interestCalculator(principal, rate, time){
+    let totalRate = rate/100;
+    let total = principal*(1+totalRate*time);
+    let grandTotal = total -principal;
+    return grandTotal;
+}
+
+console.log(interestCalculator(4000000, 2, 2))
