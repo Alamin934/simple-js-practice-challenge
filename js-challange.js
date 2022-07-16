@@ -6,8 +6,17 @@ function celciusToFahrenheit(celcius){
 }
 
 let myFahrenheit = celciusToFahrenheit(20);
-console.log(myFahrenheit);
+// console.log(myFahrenheit);
 
 
 // Fahrenheit to Celcius
 // Formula (20°F − 32) × 5/9
+
+function fahrenheitToCelcius(fahrenheit){
+    let celcius = (fahrenheit-32)*5/9;
+    return celcius;
+}
+
+let myCelcius = fahrenheitToCelcius(40);
+// console.log('the celcius is',myCelcius,'deg');
+
